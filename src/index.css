@@ -1,0 +1,61 @@
+.App {
+  font-family: "DM Sans", sans-serif;
+  text-align: center;
+}
+
+html {
+  font-family: "DM Sans", sans-serif;
+}
+
+.circle {
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  height: 10px;
+  width: 10px;
+  background-color: #D44343;
+  border-radius: 200px;
+  pointer-events: none;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+
+.cursorText {
+  flex: auto;
+  font-size: inherit;
+  pointer-events: none;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.heading {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.2;
+  text-decoration: underline;
+  transition: 150ms ease;
+  cursor: pointer;
+}
+
+.sell:hover {
+  color: #D44343;
+}
+
+.buy:hover {
+  color: #29B550;
+}
